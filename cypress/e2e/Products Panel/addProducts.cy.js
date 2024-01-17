@@ -2,7 +2,7 @@ import loginData from "../../data/loginData";
 import productsObject from "../../pages/Login Object/productsObject";
 import Login from "../../pages/Login Object/loginObject";
 
-describe("Products", () => {
+describe("Products section", () => {
 
     beforeEach(() => {
         cy.visit("/");
