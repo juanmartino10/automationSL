@@ -12,7 +12,7 @@ describe("Login", () => {
         Login.getLogo().should('be.visible')
     });
 
-    it("@Regression - Login with invalid credentials", () => {
+    it("@Regression - Negative test - Login with invalid credentials", () => {
         Login.NewLogin(loginData.invalidEmail, loginData.invalidPassword)
     })
 });
