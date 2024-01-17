@@ -1,0 +1,18 @@
+{
+  "devDependencies": {
+    "@cypress/grep": "^4.0.1",
+    "cypress": "^13.6.3"
+  },
+  "scripts": {
+    "test": "cypress open",
+    "test:headless": "cypress run"
+  },
+  "cypress": {
+    "baseUrl": "https://www.saucedemo.com/",
+    "integrationFolder": "cypress/integration",
+    "testFiles": "**/*.js",
+    "fixturesFolder": "cypress/fixtures",
+    "supportFile": "cypress/support/index.js",
+    "pluginsFile": "cypress/plugins/index.js"
+  }
+}
